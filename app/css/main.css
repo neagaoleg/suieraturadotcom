@@ -1,0 +1,274 @@
+/*JUITTER PLUGIN CSS*/
+#juitterContainer
+{
+}
+/*Juitter container*/
+#juitterContainer .twittList
+{
+	margin: 0;
+	padding: 0;
+}
+/*UL that will contain the list of tweets
+Bellow the list of tweets "<li>"*/
+#juitterContainer .twittLI
+{
+	list-style: none;
+	background: #D1F4C7;
+	margin: 0;
+	padding: 5px 0 0;
+	border-bottom: 1px dashed #CAF8C9;
+	padding: 3px;
+	clear: both;
+	height: 55px;
+	width: 500px;
+}
+#juitterContainer .twittList SPAN.time
+{
+	color: #777;
+	font-size: 0.9em;
+}
+#juitterContainer .twittList A
+{
+	color: #006600;
+}
+/*Links inside the tweets list
+Bellow the CSS for the avatar image*/
+#juitterContainer .juitterAvatar
+{
+	float: left;
+	border: 1px solid #D3EECA;
+	background: #FFF;
+	margin-right: 5px;
+	padding: 2px;
+	width: 48px;
+	height: 48px;
+}
+#juitterContainer .jRM
+{
+	float: none;
+	clear: both;
+}
+/*read it on twitter link*/
+#juitterContainer .extLink
+{
+}
+/*CSS for the external links*/
+#juitterContainer .hashLink
+{
+}
+/*CSS for the hash links
+end of Juitter CSS
+BELOW HERE IS THE JUITTER WEBSITE CSS*/
+BODY
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FFFFFF;
+}
+#header
+{
+	text-align: center;
+}
+H1
+{
+	color: #009900;
+	font-size: 1.8em;
+	margin: 0 0 5px;
+	padding: 0;
+}
+H1 SPAN
+{
+	display: none;
+}
+#content
+{
+	width: 500px;
+	padding: 10px 0px;
+	margin: 0 auto;
+	position: relative;
+}
+#content H2
+{
+	color: #2CAF1D;
+	font-size: 1.4em;
+	margin: 0 0 5px;
+	padding: 0;
+}
+#content UL.nav
+{
+	margin: 0;
+	padding: 0;
+}
+#content UL.nav LI
+{
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0 5px;
+	color: #A4D630;
+}
+#content UL.nav LI A
+{
+	color: #A4D630;
+	font-size: 1.2em;
+	display: block;
+	font-weight: bold;
+}
+#content UL.nav LI A:hover
+{
+	color: #2CAF1D;
+}
+#content UL.nav LI A.on
+{
+	color: #2CAF1D;
+	font-size: 1.2em;
+}
+#content #juitterSearch
+{
+	clear: both;
+	padding: 7px 0 5px;
+}
+#content #juitterSearch P
+{
+	font-size: 2em;
+	color: #2CAF1D;
+}
+#content #juitterSearch INPUT
+{
+	padding: 4px;
+	border: 1px solid #666;
+	width: 300px;
+	color: #666;
+	height: 25px;
+	font-size: 15pt;
+}
+#content P.download
+{
+	text-align: center;
+	margin-bottom: 0;
+}
+#content P.download SMALL
+{
+	color: #006699;
+	font-size: 0.8em;
+}
+#content P.download IMG
+{
+	border: 0;
+}
+#content #juitter
+{
+	width: 650px;
+	float: left;
+}
+#info
+{
+	width: 400px;
+	margin-left: 10px;
+	float: left;
+}
+#info H2
+{
+	color: #17C6FF;
+	font-size: 1.6em;
+	margin: 0 0 5px;
+	padding: 0;
+}
+#info A
+{
+	color: #0099FF;
+}
+#info LI
+{
+	margin: 5px 0;
+}
+#info FORM
+{
+	padding-left: 100px;
+}
+#content .btl
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#content .btr
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#content .bbl
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#content .bbr
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#footer
+{
+	width: 860px;
+	padding: 5px 10px;
+	background: #FFF;
+	margin: 10px auto;
+	position: relative;
+}
+#footer P
+{
+	text-align: center;
+	font-size: 0.9em;
+	color: #003300;
+	margin: 1px 0;
+	padding: 0;
+}
+#footer P A
+{
+	color: #003300;
+}
+#footer .btl
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#footer .btr
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#footer .bbl
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#footer .bbr
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.cb
+{
+	clear: both;
+}
+.nmt
+{
+	margin-top: 0;
+	padding-top: 0;
+}
+.code
+{
+	color: #006600;
+	background: #FEFDED;
+	margin: 0;
+	padding: 0;
+}
